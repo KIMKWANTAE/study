@@ -1,0 +1,17 @@
+< 내 코드 깃허브에 보내기 >
+vscode 에서 new terminal에서 경로 변경 후 
+
+PS D:\gitgub_file> git init
+(최초 수행)
+
+PS D:\gitgub_file> git add .
+(최초 또는 변경시)
+
+PS D:\gitgub_file> git commit -m "first commit"
+(몇번째 수정파일인지 명시)
+
+PS D:\gitgub_file> git remote add origin https://github.com/KIMKWANTAE/study.git
+
+PS D:\gitgub_file> git remote -v
+
+PS D:\gitgub_file> git push origin master
